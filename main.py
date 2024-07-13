@@ -3,7 +3,7 @@ with open('todo.txt', 'r') as file:
   for line in file:
     list.append(line.strip())
 def display():
-    a=input("Would you like to:\n(1)Add something to your list\n(2)View your list\n(3)Delete an item from you list\n(4)clear list\n")
+    a=input("Would you like to:\n(1)Add something to your list\n(2)View your list\n(3)Delete an item from you list\n(4)Clear list\n")
     if a=="1":
         add()
     elif a=="2":
